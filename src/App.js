@@ -4,7 +4,7 @@ import FormCreater from './component/form_creater/FormCreater';
 import TestPage from './component/TestPage/TestPage';
 import TestPage2 from './component/TestPage/TestPage2';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link
