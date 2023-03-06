@@ -24,14 +24,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-
+        <Link to="/">Home</Link>
         <Link to="/page1">Page</Link>
         <Link to="/page2">Page 2</Link>
 
         <Routes>
           <Route path="/page1" element={<FormCreater />} exact />
           <Route path="/page2" element={<TestPage2 />} exact />
-          <Route path="/" element={<TestPage />} exact />
+          <Route path="*" element={<TestPage />} />
         </Routes>
       </Router>
     </div>
