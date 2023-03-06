@@ -13,12 +13,12 @@ import {
 function App() {
 
   // registering service worker if it is supported
-  if('serviceWorker' in navigator){
-    navigator.serviceWorker
-    .register('/sw.js');
-  }else{
-    alert("Service Worker cannot be registered.")
-  }
+  // if('serviceWorker' in navigator){
+  //   navigator.serviceWorker
+  //   .register('/sw.js');
+  // }else{
+  //   alert("Service Worker cannot be registered.")
+  // }
 
 
   return (
