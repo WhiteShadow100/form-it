@@ -1,0 +1,8 @@
+Type:
+    1 -> Text Input
+    2 -> Number Input
+    3 -> boolean (True or False)
+    4 -> Date time
+    5 -> Optional
+    6 -> Descriptive
+    

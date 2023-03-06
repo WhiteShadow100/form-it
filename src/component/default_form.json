@@ -1,0 +1,53 @@
+[
+    {
+        "question": "This is question 1",
+        "is_required": false,
+        "type": 1,
+        "data": {
+            "max_length": 10,
+            "place_holder": "Answer...",
+            "value": ""
+        }
+    },{
+        "question": "This is question 2",
+        "type": 2,
+        "is_required": false,
+        "data" : {
+            "min_val": 0,
+            "max_val": 100,
+            "decimal": 2
+        }
+    },{
+        "question": "This is question 3",
+        "type": 3,
+        "is_required": false,
+        "data": {
+            "option_count": 2
+        }
+    },{
+        "question": "This is question 4",
+        "type": 4,
+        "is_required": false,
+        "data": {
+            "start": "2023/02/01",
+            "end": "2023/03/01"
+        }
+    },{
+        "question": "This is question 5",
+        "type": 5,
+        "is_required": false,
+        "data": {
+            "option":[
+                {"name": "male", "value": "male"},
+                {"name": "female", "value": "female"} 
+            ]
+        }
+    },{
+        "question": "This is question 6",
+        "type": 6,
+        "is_required": false,
+        "data":{
+            "max_length": 100
+        }
+    }
+]
